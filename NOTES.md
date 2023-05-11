@@ -99,9 +99,39 @@ added 150 packages, changed 2 packages, and audited 450 packages in 9s
 found 0 vulnerabilities
 ~~~
 
+## Fixup package.json
+
+Move dev dependencies to right place.
+
 ## Configure Jest
 
 ## Add Monaco
+
+Install @monaco-editor/react
+~~~
+C:\git\llm-tools\next-monaco-redux>npm install @monaco-editor/react
+
+added 4 packages, and audited 454 packages in 6s
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+~~~
+
+Install monaco-editor and then move to peer dependences.
+~~~
+C:\git\llm-tools\next-monaco-redux>npm install monaco-editor 
+
+up to date, audited 454 packages in 879ms
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+~~~
+
+**IMPORTANT**: Add "use client" to the top of `page.tsx`.
 
 ## Add Redux
 

@@ -1,0 +1,696 @@
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- event compiled client and server successfully in 2.4s (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 303 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 2.1s (599 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled client and server successfully in 384 ms (623 modules)
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NOTES.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\git\llm-tools\next-monaco-redux>npx gts init
+version: 19
+package.json already has a script for lint:
+-next lint
++gts lint
+? Replace No
+Writing package.json...
+{
+  scripts: {
+    dev: 'next dev',
+    build: 'next build',
+    start: 'next start',
+    lint: 'next lint',
+    clean: 'gts clean',
+    compile: 'tsc',
+    fix: 'gts fix',
+    prepare: 'npm.cmd run compile',
+    pretest: 'npm.cmd run compile',
+    posttest: 'npm.cmd run lint'
+  },
+  devDependencies: { gts: '^3.1.1', typescript: '~4.7.0', '@types/node': '^14.11.2' }
+}
+./tsconfig.json already exists
+? Overwrite No
+./.eslintrc.json already exists
+? Overwrite No
+Writing ./.eslintignore...
+build/
+
+Writing ./.prettierrc.js...
+module.exports = {
+  ...require('gts/.prettierrc.json')
+}
+
+Writing ./.editorconfig...
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+
+Default template installed.
+
+added 150 packages, changed 2 packages, and audited 450 packages in 9s
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\git\llm-tools\next-monaco-redux>npm install
+npm ERR! code EJSONPARSE
+npm ERR! path C:\git\llm-tools\next-monaco-redux/package.json
+npm ERR! JSON.parse Expected double-quoted property name in JSON at position 471 while parsing '{
+npm ERR! JSON.parse   "name": "next-monaco-redux",
+npm ERR! JSON.parse   "vers'
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\mhop\AppData\Local\npm-cache\_logs\2023-05-11T22_07_30_051Z-debug-0.log
+
+C:\git\llm-tools\next-monaco-redux>npm install
+npm ERR! code EJSONPARSE
+npm ERR! path C:\git\llm-tools\next-monaco-redux/package.json
+npm ERR! JSON.parse Expected ',' or '}' after property value in JSON at position 700 while parsing '{
+npm ERR! JSON.parse   "name": "next-monaco-redux",
+npm ERR! JSON.parse   "vers'
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\mhop\AppData\Local\npm-cache\_logs\2023-05-11T22_07_49_115Z-debug-0.log
+
+C:\git\llm-tools\next-monaco-redux>npm install
+
+> next-monaco-redux@0.1.0 prepare
+> npm.cmd run compile
+
+
+> next-monaco-redux@0.1.0 compile
+> tsc
+
+
+changed 2 packages, and audited 450 packages in 5s
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 2.2s (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 369 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 2.4s (599 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled client and server successfully in 424 ms (623 modules)
+- wait compiling...
+- event compiled successfully in 420 ms (245 modules)
+- wait compiling...
+- event compiled successfully in 363 ms (245 modules)
+- wait compiling...
+- event compiled client and server successfully in 717 ms (542 modules)
+- wait compiling...
+- event compiled successfully in 384 ms (237 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 100 ms (293 modules)
+- wait compiling...
+- event compiled client and server successfully in 756 ms (567 modules)
+- wait compiling /_error (client and server)...
+- event compiled client and server successfully in 155 ms (568 modules)
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 1075 ms (311 modules)
+- wait compiling...
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 1119 ms (567 modules)
+- wait compiling /_error (client and server)...
+- event compiled client and server successfully in 268 ms (568 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 157 ms (301 modules)
+- wait compiling...
+- event compiled successfully in 558 ms (301 modules)
+- wait compiling...
+- event compiled successfully in 502 ms (245 modules)
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>npm install @monaco-editor/react
+
+added 4 packages, and audited 454 packages in 6s
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\git\llm-tools\next-monaco-redux>npm --version
+9.5.1
+
+C:\git\llm-tools\next-monaco-redux>npm install monaco-editor 
+
+up to date, audited 454 packages in 879ms
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\git\llm-tools\next-monaco-redux>npm run dev
+npm ERR! code EJSONPARSE
+npm ERR! path C:\git\llm-tools\next-monaco-redux/package.json
+npm ERR! JSON.parse Expected double-quoted property name in JSON at position 797 while parsing '{
+npm ERR! JSON.parse   "name": "next-monaco-redux",
+npm ERR! JSON.parse   "vers'
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\mhop\AppData\Local\npm-cache\_logs\2023-05-11T22_26_31_047Z-debug-0.log
+
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 2.5s (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 528 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 2s (567 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled client and server successfully in 574 ms (623 modules)
+- wait compiling...
+- event compiled successfully in 496 ms (257 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- wait compiling...
+- event compiled successfully in 272 ms (257 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 102 ms (313 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- wait compiling...
+- event compiled successfully in 395 ms (245 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 109 ms (301 modules)
+- wait compiling...
+- event compiled successfully in 313 ms (313 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- wait compiling...
+- event compiled successfully in 432 ms (257 modules)
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object.
+
+Check your code at page.tsx:20.
+- error node_modules\next\dist\compiled\react-server-dom-webpack\cjs\react-server-dom-webpack-server.edge.development.js (1534:8) @ attemptResolveElement
+- error Error: Unsupported Server Component type: {...}
+    at stringify (<anonymous>)
+null
+- error node_modules\next\dist\compiled\react-server-dom-webpack\cjs\react-server-dom-webpack-server.edge.development.js (1534:8) @ attemptResolveElement
+- error Error: Unsupported Server Component type: {...}
+    at stringify (<anonymous>)
+digest: "1744046658"
+null
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 98 ms (313 modules)
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 1064 ms (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 371 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 867 ms (579 modules)
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object.
+
+Check your code at page.tsx:20.
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object.
+
+Check your code at page.tsx:20.
+- error node_modules\next\dist\compiled\react-server-dom-webpack\cjs\react-server-dom-webpack-server.edge.development.js (1534:8) @ attemptResolveElement
+- error Error: Unsupported Server Component type: {...}
+    at stringify (<anonymous>)
+null
+- error node_modules\next\dist\compiled\react-server-dom-webpack\cjs\react-server-dom-webpack-server.edge.development.js (1534:8) @ attemptResolveElement
+- error Error: Unsupported Server Component type: {...}
+    at stringify (<anonymous>)
+null
+- error node_modules\next\dist\compiled\react-server-dom-webpack\cjs\react-server-dom-webpack-server.edge.development.js (1534:8) @ attemptResolveElement
+- error Error: Unsupported Server Component type: {...}
+    at stringify (<anonymous>)
+digest: "1744046658"
+null
+- error node_modules\next\dist\compiled\react-server-dom-webpack\cjs\react-server-dom-webpack-server.edge.development.js (1534:8) @ attemptResolveElement
+- error Error: Unsupported Server Component type: {...}
+    at stringify (<anonymous>)
+digest: "1744046658"
+null
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 225 ms (313 modules)
+- wait compiling...
+- event compiled successfully in 459 ms (313 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- wait compiling...
+- event compiled successfully in 446 ms (257 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 87 ms (313 modules)
+- wait compiling...
+- event compiled successfully in 273 ms (313 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>rmdir /s node_modules
+node_modules, Are you sure (Y/N)? y
+
+C:\git\llm-tools\next-monaco-redux>npm run clean
+
+> next-monaco-redux@0.1.0 clean
+> gts clean
+
+'gts' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\git\llm-tools\next-monaco-redux>npm install
+
+> next-monaco-redux@0.1.0 prepare
+> npm.cmd run compile
+
+
+> next-monaco-redux@0.1.0 compile
+> tsc
+
+
+added 453 packages, and audited 454 packages in 25s
+
+151 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 1203 ms (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 470 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 570 ms (579 modules)
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- error node_modules\@monaco-editor\react\dist\index.js (1:5165) @ Ft
+- error TypeError: (0 , c.useState) is not a function or its return value is not iterable
+    at stringify (<anonymous>)
+digest: "2897649687"
+null
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 213 ms (313 modules)
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>cd ..
+
+C:\git\llm-tools>mkdir next-monaco-redux2
+
+C:\git\llm-tools>cd next-monaco-redux2
+
+C:\git\llm-tools\next-monaco-redux2>npx create-next-app@latest
+√ What is your project named? ... next-monaco-redux2
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use Tailwind CSS with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Use App Router (recommended)? ... No / Yes
+√ Would you like to customize the default import alias? ... No / Yes
+Creating a new Next.js app in C:\git\llm-tools\next-monaco-redux2\next-monaco-redux2.
+
+Using npm.
+
+Initializing project with template: app
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- typescript
+- @types/react
+- @types/node
+- @types/react-dom
+- eslint
+- eslint-config-next
+
+
+added 299 packages, and audited 300 packages in 14s
+
+125 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created next-monaco-redux2 at C:\git\llm-tools\next-monaco-redux2\next-monaco-redux2
+
+
+C:\git\llm-tools\next-monaco-redux2>npm install @monaco-editor/react
+
+added 9 packages in 3s
+
+C:\git\llm-tools\next-monaco-redux2>cd ..
+
+C:\git\llm-tools>npx create-next-app@latest       
+√ What is your project named? ... next-monaco-redux2
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use Tailwind CSS with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Use App Router (recommended)? ... No / Yes
+√ Would you like to customize the default import alias? ... No / Yes
+Creating a new Next.js app in C:\git\llm-tools\next-monaco-redux2.
+
+Using npm.
+
+Initializing project with template: app
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- typescript
+- @types/react
+- @types/node
+- @types/react-dom
+- eslint
+- eslint-config-next
+
+
+added 299 packages, and audited 300 packages in 12s
+
+125 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created next-monaco-redux2 at C:\git\llm-tools\next-monaco-redux2
+
+
+C:\git\llm-tools>npm install react-monaco-editor
+
+added 8 packages, changed 1 package, and audited 18 packages in 5s
+
+found 0 vulnerabilities
+
+C:\git\llm-tools>npm run dev
+npm ERR! Missing script: "dev"
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\mhop\AppData\Local\npm-cache\_logs\2023-05-11T23_25_35_134Z-debug-0.log
+
+C:\git\llm-tools>cd next-monaco-redux
+
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 995 ms (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 384 ms (311 modules)
+- wait compiling /page (client and server)...
+- error ./..\..\node_modules\react-monaco-editor\lib\diff.js
+ReactServerComponentsError:
+
+You're importing a component that needs useRef. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+    ,-[C:\git\node_modules\react-monaco-editor\lib\diff.js:11:1]
+ 11 | };
+ 12 | import * as monaco from "monaco-editor/esm/vs/editor/editor.api";
+ 13 | import * as React from "react";
+ 14 | import { useEffect, useMemo, useRef } from "react";
+    :                              ^^^^^^
+ 15 | import { noop, processSize } from "./utils";
+ 16 | function MonacoDiffEditor(_a) {
+ 17 |     var width = _a.width, height = _a.height, value = _a.value, defaultValue = _a.defaultValue, language = _a.language, theme = _a.theme, options = _a.options, overrideServices = _a.overrideServices, editorWillMount = _a.editorWillMount, editorDidMount = _a.editorDidMount, editorWillUnmount = _a.editorWillUnmount, onChange = _a.onChange, className = _a.className, original = _a.original;
+    `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./..\..\node_modules\react-monaco-editor\lib\diff.js
+  ./..\..\node_modules\react-monaco-editor\lib\index.js
+  ./src\app\page.tsx
+- wait compiling /_error (client and server)...
+- error ./..\..\node_modules\react-monaco-editor\lib\diff.js
+ReactServerComponentsError:
+
+You're importing a component that needs useRef. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+    ,-[C:\git\node_modules\react-monaco-editor\lib\diff.js:11:1]
+ 11 | };
+ 12 | import * as monaco from "monaco-editor/esm/vs/editor/editor.api";
+ 13 | import * as React from "react";
+ 14 | import { useEffect, useMemo, useRef } from "react";
+    :                              ^^^^^^
+ 15 | import { noop, processSize } from "./utils";
+ 16 | function MonacoDiffEditor(_a) {
+ 17 |     var width = _a.width, height = _a.height, value = _a.value, defaultValue = _a.defaultValue, language = _a.language, theme = _a.theme, options = _a.options, overrideServices = _a.overrideServices, editorWillMount = _a.editorWillMount, editorDidMount = _a.editorDidMount, editorWillUnmount = _a.editorWillUnmount, onChange = _a.onChange, className = _a.className, original = _a.original;
+    `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./..\..\node_modules\react-monaco-editor\lib\diff.js
+  ./..\..\node_modules\react-monaco-editor\lib\index.js
+  ./src\app\page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\git\llm-tools\next-monaco-redux\.next\cache\webpack\client-development-fallback\0.pack_' -> 'C:\git\llm-tools\next-monaco-redux\.next\cache\webpack\client-development-fallback\0.pack'
+- wait compiling /favicon.ico/route (client and server)...
+- error ./..\..\node_modules\react-monaco-editor\lib\diff.js
+ReactServerComponentsError:
+
+You're importing a component that needs useRef. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+
+    ,-[C:\git\node_modules\react-monaco-editor\lib\diff.js:11:1]
+ 11 | };
+ 12 | import * as monaco from "monaco-editor/esm/vs/editor/editor.api";
+ 13 | import * as React from "react";
+ 14 | import { useEffect, useMemo, useRef } from "react";
+    :                              ^^^^^^
+ 15 | import { noop, processSize } from "./utils";
+ 16 | function MonacoDiffEditor(_a) {
+ 17 |     var width = _a.width, height = _a.height, value = _a.value, defaultValue = _a.defaultValue, language = _a.language, theme = _a.theme, options = _a.options, overrideServices = _a.overrideServices, editorWillMount = _a.editorWillMount, editorDidMount = _a.editorDidMount, editorWillUnmount = _a.editorWillUnmount, onChange = _a.onChange, className = _a.className, original = _a.original;
+    `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./..\..\node_modules\react-monaco-editor\lib\diff.js
+  ./..\..\node_modules\react-monaco-editor\lib\index.js
+  ./src\app\page.tsx
+- warn Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+- wait compiling...
+- event compiled client and server successfully in 151 ms (441 modules)
+- warn Fast Refresh had to perform a full reload due to a runtime error.
+- wait compiling /page (client and server)...
+Terminate batch job (Y/N)? 
+^C
+C:\git\llm-tools\next-monaco-redux>
+npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 991 ms (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 463 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 7.2s (1592 modules)
+- error ..\..\node_modules\monaco-editor\esm\vs\base\browser\browser.js (106:0) @ eval
+- error ReferenceError: navigator is not defined
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/app/page.tsx:7:77)
+    at (sc_client)/./src/app/page.tsx (C:\git\llm-tools\next-monaco-redux\.next\server\app\page.js:1723:1)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+null
+- error ..\..\node_modules\monaco-editor\esm\vs\base\browser\browser.js (106:0) @ eval
+- error ReferenceError: navigator is not defined
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+    at eval (./src/app/page.tsx:7:77)
+    at (sc_client)/./src/app/page.tsx (C:\git\llm-tools\next-monaco-redux\.next\server\app\page.js:1723:1)
+    at __webpack_require__ (C:\git\llm-tools\next-monaco-redux\.next\server\webpack-runtime.js:33:42)
+null
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 279 ms (788 modules)
+- wait compiling...
+- event compiled client and server successfully in 1026 ms (596 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 92 ms (313 modules)
+Terminate batch job (Y/N)? 
+
+^C
+C:\git\llm-tools\next-monaco-redux>npm run dev
+
+> next-monaco-redux@0.1.0 dev
+> next dev
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- warn Detected next.config.js, no exported configuration found. https://nextjs.org/docs/messages/empty-configuration
+- event compiled client and server successfully in 1092 ms (311 modules)
+- wait compiling...
+- event compiled client and server successfully in 431 ms (311 modules)
+- wait compiling /page (client and server)...
+- event compiled client and server successfully in 1665 ms (596 modules)
+- wait compiling /favicon.ico/route (client and server)...
+- event compiled successfully in 193 ms (313 modules)
