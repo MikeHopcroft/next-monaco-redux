@@ -1,7 +1,6 @@
 "use client"
 
 import Editor from '@monaco-editor/react';
-import MonacoEditor from 'react-monaco-editor';
 import Image from 'next/image';
 import styles from './page.module.css';
 
@@ -20,16 +19,6 @@ export default function Home() {
           height={24}
           priority
         />
-        {/* <MonacoEditor
-          width="800"
-          height="600"
-          language="javascript"
-          theme="vs-dark"
-          // value={code}
-          // options={options}
-          // onChange={::this.onChange}
-          // editorDidMount={::this.editorDidMount}
-        /> */}
         <Editor
           height="90vh"
           defaultLanguage="javascript"
